@@ -16,58 +16,60 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Rating state start -->
-    <section id="container">
-      <div id="rating-card">
-        <div class="circle">
-          <img src="./images/icon-star.svg" alt="star icon" />
+    <main>
+      <!-- Rating state start -->
+      <section id="container">
+        <div id="rating-card">
+          <div class="circle">
+            <img src="./images/icon-star.svg" alt="star icon" />
+          </div>
+          <div id="rating-text">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div id="scale">
+            <input type="radio" id="one-star" name="rating" />
+            <label for="one-star" class="circle">1</label>
+            <input type="radio" id="two-stars" name="rating" />
+            <label for="two-stars" class="circle">2</label>
+            <input type="radio" id="three-stars" name="rating" />
+            <label for="three-stars" class="circle">3</label>
+            <input type="radio" id="four-stars" name="rating" />
+            <label for="four-stars" class="circle">4</label>
+            <input type="radio" id="five-stars" name="rating" />
+            <label for="five-stars" class="circle">5</label>
+          </div>
+          <button id="submit">SUBMIT</button>
         </div>
-        <div id="rating-text">
-          <h2>How did we do?</h2>
-          <p>
-            Please let us know how we did with your support request. All
-            feedback is appreciated to help us improve our offering!
-          </p>
-        </div>
-        <div id="scale">
-          <input type="radio" id="one-star" name="rating" />
-          <label for="one-star" class="circle">1</label>
-          <input type="radio" id="two-stars" name="rating" />
-          <label for="two-stars" class="circle">2</label>
-          <input type="radio" id="three-stars" name="rating" />
-          <label for="three-stars" class="circle">3</label>
-          <input type="radio" id="four-stars" name="rating" />
-          <label for="four-stars" class="circle">4</label>
-          <input type="radio" id="five-stars" name="rating" />
-          <label for="five-stars" class="circle">5</label>
-        </div>
-        <button id="submit">SUBMIT</button>
-      </div>
-      <!-- Rating state end -->
+        <!-- Rating state end -->
 
-      <!-- Thank you state start -->
-      <div id="thank-you-card">
-        <img
-          src="./images/illustration-thank-you.svg"
-          alt="thank you illustration"
-        />
-        <p id="rating-message"></p>
-        <div id="thank-you-message">
-          <h2>Thank you!</h2>
-          <p>
-            We appreciate you taking the time to give a rating. If you ever need
-            more support, don’t hesitate to get in touch!
-          </p>
+        <!-- Thank you state start -->
+        <div id="thank-you-card">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="thank you illustration"
+          />
+          <p id="rating-message"></p>
+          <div id="thank-you-message">
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
         </div>
-      </div>
-      <!-- Thank you state end -->
-      <script src="main.js"></script>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Leo</a>.
-      </div>
-    </section>
+        <!-- Thank you state end -->
+        <script src="main.js"></script>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Leo</a>.
+        </div>
+      </section>
+    </main>
   </body>
 </html>
