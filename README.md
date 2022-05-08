@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Kinzume/interactive-rating-component-main](https://github.com/Kinzume/interactive-rating-component-main)
-- Live Site URL: [kinzume.github.io/interactive-rating-component-main/](kinzume.github.io/interactive-rating-component-main/)
+- Live Site URL: [https://kinzume.github.io/interactive-rating-component-main/](https://kinzume.github.io/interactive-rating-component-main/)
 
 ## My process
 
