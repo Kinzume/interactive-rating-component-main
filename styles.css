@@ -61,7 +61,8 @@ body{
 #rating-card>.circle>img {
     height: 1.13rem;
 }
-#rating-text h2{
+#rating-text h1,
+#thank-you-message h2{
     color:var(--white);
     font-size:2rem;
     line-height: 2;
